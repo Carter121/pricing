@@ -1,0 +1,60 @@
+main {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	color: white;
+
+	hr {
+		border: 1px solid #3a3a3a;
+		width: 90%;
+		margin: auto;
+	}
+
+	.container {
+		display: grid;
+		place-items: center;
+		height: 100%;
+		width: 100%;
+	}
+
+	.card {
+		background-color: #242424;
+		height: 70%;
+		width: 25%;
+		border-radius: 1.5rem;
+		border: 3px solid #414141;
+		padding: 1rem;
+	}
+
+	.title {
+		font-size: 1rem;
+		text-align: center;
+		padding: 1.5rem;
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		font-weight: 400;
+	}
+
+	.back-btn {
+		background-color: #434343;
+		border-radius: 50%;
+		font-size: 1.5rem;
+		height: 2.5rem;
+		width: 2.5rem;
+		display: grid;
+		place-items: center;
+	}
+	.top {
+		display: flex;
+		align-items: center;
+		position: relative;
+		margin-bottom: 2rem;
+	}
+
+	.premium {
+		color: red;
+	}
+}
