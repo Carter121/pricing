@@ -3,6 +3,7 @@
 		"scss": "sass --watch styles/scss:styles/css"
 	},
 	"dependencies": {
-		"sass": "^1.49.11"
+		"sass": "^1.49.11",
+		"scss": "^0.2.4"
 	}
 }
